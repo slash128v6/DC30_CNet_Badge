@@ -1,0 +1,4 @@
+Use the DSTIKE Boards: Spark Fun Pro Micro 5V and Wemos D1 Mini
+Set protocol to I2C
+Disable Debugging
+Set NeoPixel to 7
