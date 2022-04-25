@@ -1,0 +1,1 @@
+There is an error with the old RGB Addressable LED symbol. The schematic connections were made so that the board woould work.
