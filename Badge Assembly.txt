@@ -1,0 +1,22 @@
+Flux Capacitor LED Badge
+Install front RGB LEDs with long leads and flat on the left. Do not push all the way in, stop at the marks on the leads. It helps to solder one lead on each LED, then clip all the extra on the back side, then solder all the remaining leads.
+Solder rear LEDs on the backwith short lead and flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the clear area on the PCB.
+Solder R1 on the back.
+Solder the switch on the back.
+Solder the SAO 4 pin female header on the front.
+Front View – D1 Mini. Install with reset button facing left and USB connector at the bottom facing down towards the board. Install headers with long side facing away from the badge.
+Rear View – WiFi Duck Pro Micro is on the left, LED Pro Micro is on the right. Install with USB connector at the top and facing up away from the board. Install headers with long side facing away from the badge.
+Place double sided foam tape on back of badge between D1 Mini pins, then place battery holder on tape and solder the leads.
+Install batteries. Slide switch to BATT for battery mode and USB when connecting to USB. Do not leave switch in BATT mode when USB power is connected.
+Flux Capacitor Badge GitHub: https://github.com/slash128v6/DC30_CNet_Badge
+SAO
+Solder rear LEDs on the backwith short lead and flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the clear area on the PCB.
+Solder R1 on the back.
+Solder the male 4 pin header on the back.
+Connect the SAO PCB to the main badge.
+
+WiFi Duck
+The front center RGB LED is for the WiFi Duck and does not light up with the other LEDs. See the WiFi Duck scripting documentation for use.
+The WiFi Duck uses the D1 Mini on the front and the Pro Micro on the back left side.
+With the WiFi Duck powered by USB (either D1 Miini or Pro Micro) connect to WiFi network “wifiduck” with password “wifiduck” and open a browser window to http://192.168.4.1
+WiFi Duck GitHub: https://github.com/SpacehuhnTech/WiFiDuck
