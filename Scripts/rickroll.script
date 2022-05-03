@@ -4,17 +4,21 @@ LOCALE US
 REM default delay
 DEFAULTDELAY 200
 
-DELAY 200
+DELAY 250
 
 REM open weblink
 GUI r
 STRING https://www.youtube.com/watch?v=oHg5SJYRHA0
 ENTER
 
+DELAY 250
+
 REM open notepad
 GUI r
 STRING notepad
 ENTER
+
+DELAY 250
 
 STRING Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you
 ENTER
