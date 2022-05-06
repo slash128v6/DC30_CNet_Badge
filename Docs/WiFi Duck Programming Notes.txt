@@ -1,3 +1,4 @@
+See the WiFiDuck Documentation for Arduino IDE configuration, libraries, boards, etc.: WiFi Duck GitHub: https://github.com/SpacehuhnTech/WiFiDuck
 Use the DSTIKE Boards: Spark Fun Pro Micro 5V and Wemos D1 Mini
 Set protocol to I2C
 Disable Debugging
