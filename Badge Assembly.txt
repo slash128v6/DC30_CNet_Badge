@@ -1,5 +1,5 @@
 Flux Capacitor LED Badge
-Install front RGB LEDs with long leads and flat on the left. Do not push all the way in, stop at the marks on the leads. It helps to solder one lead on each LED, then clip all the extra on the back side, then solder all the remaining leads.
+Install front RGB LEDs with long leads and flat on the left. Do not push all the way in or the LED may crack. Stop at the marks on the leads. It helps to solder one lead on each LED, then clip all the extra on the back side, then solder all the remaining leads.
 Solder rear LEDs on the backwith short lead and flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the clear area on the PCB.
 Solder R1 on the back.
 Solder the switch on the back.
