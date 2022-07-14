@@ -1,4 +1,4 @@
-DC30_CNet_Badge
+DEF CON 30 CompuNet Badge
 
 Check out the Docs folder...
 
