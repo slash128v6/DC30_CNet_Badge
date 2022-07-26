@@ -1,4 +1,4 @@
-# Flux Capacitor LED Badge -
+# Flux Capacitor LED Badge
 
 ## GitHub: [https://github.com/slash128v6/DC30\_CNet\_Badge](https://github.com/slash128v6/DC30_CNet_Badge)
 
