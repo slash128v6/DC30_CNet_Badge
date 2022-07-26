@@ -6,12 +6,12 @@
 
 **Main Badge**
 
-- 2 foam pads
 - 1 main PCB (white)
-- 1 aux PCB (blue)
-- 2 Pro MIcro
+- 2 foam pads
+- 3 AAA batteries
+- 1 battery carrier
+- 2 Pro Micro
 - 1 D1 Mini
-- 3 AAA Batteries
 - 1 jumper socket (four pin)
 - 1 on/off switch
 - 1 100ohm resistor
@@ -21,6 +21,7 @@
 
 **Mini Badge**
 
+- 1 aux PCB (blue)
 - 1 RGB LED (smaller - slow cycle) PN 1196
 - 1 RGB LED (smaller - fast cycle) PN 1197 - behind cow
 - 1 jumper header (four pin)
@@ -29,19 +30,25 @@
 
 # Instructions
 
-One of the 4 small LEDs is a fast-cycling LED. These LEDs are internally current limited so you can test by connecting it to the battery pack as shown with the longer lead to the left. Do not test regular LEDs like this, they will fry. Set aside the fast-cycling LED. The other 3 are slow-cycling LEDs.
+## Main Badge
+
+### Step 1: Verify the slow-cycling LEDs (mini-badge uses fast-cycling LED)
+
+The main badge uses 9 large RGB LEDS (with four legs) and 2 smaller slow-cycling RGB LEDs. The mini-badge uses 1 slow-cycling LED and 1 fast-cycling LED that is identical in size and shape to the slow-cycling LEDs. You can verify that you are using the correct LED by testing with the battery pack. The fast-cycling RGB will change color very rapidly - if the colors change gradually, you're using the correct LEDs for the main badge. These LEDs are internally current limited so you can test by connecting it to the battery pack as shown with the longer lead to the left (+ or anode). Do not test regular LEDs like this, they will fry. Set aside the fast-cycling LED. The other 3 are slow-cycling LEDs.
 
 <img src="images/Picture1.jpg" alt="Picture1.jpg" width="360" height="478"> <img src="images/Picture2.jpg" alt="Picture2.jpg" width="360" height="478">
 
-Solder 2 of the slow-cycling rear LEDs on the back with short lead and flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the translucent area on the PCB. Solder R1 on the back. Trim the leads on the front.
+With the board upside down (silkscreen facing down), solder 2 of the slow-cycling rear LEDs on the back with short lead (- cathode) on the left side, and  flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the translucent area on the PCB. Solder R1 on the back. Trim the leads on the front.
 
 <img src="images/Picture3.jpg" alt="Picture3.jpg" width="367" height="489"> <img src="images/Picture4.jpg" alt="Picture4.jpg" width="367" height="489"><img src="images/Picture5.jpg" alt="Picture5.jpg" width="368" height="490">
 
-Solder the switch on the back.
+### Step 2: Solder the switch and female header
+
+Solder the switch on the back
 
 <img src="images/picture6.jpg" alt="picture6.jpg" width="364" height="482"> <img src="images/Picture7.jpg" alt="Picture7.jpg" width="362" height="484">
 
-Solder the SAO 4 pin female header on the front.
+Flip the PCB over to the front and solder the SAO 4 pin female header on the front in position JP1
 
 <img src="images/Picture8.jpg" alt="Picture8.jpg" width="358" height="473"> <img src="images/Picture9.jpg" alt="Picture9.jpg" width="358" height="473">
 
