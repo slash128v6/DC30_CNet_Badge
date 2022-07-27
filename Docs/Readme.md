@@ -52,15 +52,21 @@ Flip the PCB over to the front and solder the SAO 4 pin female header on the fro
 
 <img src="images/Picture8.jpg" alt="Picture8.jpg" width="358" height="473"> <img src="images/Picture9.jpg" alt="Picture9.jpg" width="358" height="473">
 
+### Step 3: Install front RGD Leds
+
 Install front RGB LEDs with long leads and flat on the left, matching the symbol on the board. Do not push all the way in, stop at the marks on the leads. Make sure there are no solder bridges. Trim the leads so there is clearance for the micro controllers to install on the other side.
 
 <img src="images/Picture10.jpg" alt="Picture10.jpg" width="340" height="451"> <img src="images/Picture11.jpg" alt="Picture11.jpg" width="606" height="456"><img src="images/Picture12.jpg" alt="Picture12.jpg" width="344" height="458">
 
 <img src="images/Picture13.jpg" alt="Picture13.jpg" width="327" height="436"><img src="images/Picture14.jpg" alt="Picture14.jpg" width="330" height="438">
 
+### Step 4: Install the Pro Micros
+
 Rear View – WiFi Duck Pro Micro is on the left, LED Pro Micro is on the right. Install with USB connector at the top and facing up away from the board. Install headers with long side facing away from the badge, black insulator between the micro and badge board. Make sure to solder all the pins on both the badge board and micro board.
 
 <img src="images/Picture15.jpg" alt="Picture15.jpg" width="640" height="481"> <img src="images/Picture16.jpg" alt="Picture16.jpg" width="363" height="485">
+
+### Step 5: Install the D1 Mini
 
 Front View – D1 Mini. Install with reset button on the left and USB connector at the bottom facing down towards the board. Install headers with long side facing away from the badge, black insulator between the micro and badge board.
 
@@ -72,7 +78,7 @@ Trim a piece of double-sided foam tape to fit between the pins of the D1 Mini on
 
 Slide switch to BATT for battery mode and USB when connecting to USB. Do not leave switch in BATT mode when USB power is connected.
 
-# SAO
+## SAO: Mini-badge
 
 Solder rear LEDs on the back with short lead and flat facing label LED1 & LED2. Bend the LEDs so they are flat against the back of the board to shine through the clear area on the PCB. The fast-cycling LED goes behind the surfing cow and the slow cycling LED goes behind the sun. Solder R1 on the back. Solder the male 4 pin header on the back. Trim the LED and resistor excess leads on the front.
 
@@ -82,20 +88,54 @@ Connect the SAO PCB to the main badge. Slide the switch to BATT and verify the s
 
 <img src="images/Picture24.jpg" alt="Picture24.jpg" width="535" height="403"> <img src="images/Picture25.jpg" alt="Picture25.jpg" width="538" height="404">
 
-# Badge LED Micro Programming
+## Badge LED Micro Programming
 
-Load the SparkFun Pro Micro board in Board Manager in the Arduino IDE:
-https://www.sparkfun.com/products/12640
+### Setting up the Arduino IDE
+
+#### Download the Arduino IDE: 
+
+[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+Open Tools-> Board -> Boards Manager and select type "Contributed". If this is a new installation, you will likely not have "Sparkfun AVR Boards". Copy the following URL:
+
+`https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json`
+
+In the Arduino software, click on the Arduino menu and select "Preferences". Paste the URL in the field labled "Additional  Boards URL"
+
+![Picture36.png](images/Picture36.png)
+
+Open Tools-> Board -> Boards Manager and select type "Contributed". You should now see "Sparkfun AVR Boards" as an option. Click Install. Close Boards Manager when the install is complete.
+
+![Picture37.png](images/Picture37.png)
+
+**Now select the correct board: Tools -> Board -> Sparkfun AVR Boards -> Sparkfun Pro Micro**
+
+**Select the correct processor: 5v, 16mhz**
+
+![Picture38.png](images/Picture38.png)
+
 Connect a data micro USB cable to the right Pro Micro on the back of the badge.
 
 <img src="images/Picture26.jpg" alt="Picture26.jpg" width="585" height="443">
 
 Download the LED Micro .ino file from the repo and open in Arduino: [https://github.com/slash128v6/DC30\_CNet\_Badge/blob/main/DC30\_CNet\_Badge/DC30\_CNet\_Badge.ino](https://github.com/slash128v6/DC30_CNet_Badge/blob/main/DC30_CNet_Badge/DC30_CNet_Badge.ino)
-Make sure you select the SparkFun Pro Micro from the SparkFun boards and Processor is the 5V, 16MHz version. If you select the 3V version and try to upload you’ll have to follow the recover process from SparkFun to unbrick it.
 
-![Picture27.jpg](images/Picture27.jpg)
+*Make sure you select the SparkFun Pro Micro from the SparkFun boards and Processor is the 5V, 16MHz version. If you select the 3V version and try to upload you’ll have to follow the recover process from SparkFun to unbrick it.*
 
-Once you have all your settings correct and port selected upload the file and then the LEDs on the front should start cycling. The front center RGB LED is for the WiFi Duck and does not light up with the other LEDs. See the WiFi Duck scripting documentation for use.
+
+**New Arduino installations will need to install the Neopixel library before the sketch updloads correctly.**
+
+![Picture39.jpg](images/Picture39.png)
+
+To install the missing Neopixal library, open Library Manager:
+
+Sketch -> Include Library -> Manage Libraries
+
+In the Library Manager, search for Adafruit Neopixel and click install:
+
+![Picture40.jpg](images/Picture40.png)
+
+With the Neopixel library installed, you should be able to upload the .ino file to the badge. Once uploaded, the LEDs on the front should start cycling. The front center RGB LED is for the WiFi Duck and does not light up with the other LEDs. See the WiFi Duck scripting documentation for use.
 
 <img src="images/Picture28.jpg" alt="Picture28.jpg" width="539" height="406">
 
