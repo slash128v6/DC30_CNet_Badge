@@ -7,7 +7,7 @@
 **Main Badge**
 
 - 1 main PCB (white)
-- 2 foam pads
+- 1 foam pad
 - 3 AAA batteries
 - 1 battery carrier
 - 2 Pro Micro
