@@ -34,7 +34,7 @@
 
 ### Step 1: Verify the slow-cycling LEDs (mini-badge uses fast-cycling LED)
 
-The main badge uses 9 large RGB LEDS (with four legs) and 2 smaller slow-cycling RGB LEDs. The mini-badge uses 1 slow-cycling LED and 1 fast-cycling LED that is identical in size and shape to the slow-cycling LEDs. You can verify that you are using the correct LED by testing with the battery pack. The fast-cycling RGB will change color very rapidly - if the colors change gradually, you're using the correct LEDs for the main badge. These LEDs are internally current limited so you can test by connecting it to the battery pack as shown with the longer lead to the left (+ or anode). Do not test regular LEDs like this, they will fry. Set aside the fast-cycling LED. The other 3 are slow-cycling LEDs.
+The main badge uses 9 large RGB LEDS (with four legs) and 2 smaller slow-cycling RGB LEDs. The mini-badge uses 1 slow-cycling LED and 1 fast-cycling LED that is identical in size and shape to the slow-cycling LEDs. You can verify that you are using the correct LED by testing with the battery pack. The fast-cycling RGB will change color very rapidly - if the colors change gradually, you're using the correct LEDs for the main badge. These LEDs are internally current limited so you can test by connecting it to the battery pack as shown with the longer lead to the left (+ or anode). Do not test regular LEDs like this, they will fry. Even though they don't need a resistor do not connect them backwards or they will fry. Set aside the fast-cycling LED. The other 3 are slow-cycling LEDs.
 
 <img src="images/Picture1.jpg" alt="Picture1.jpg" width="360" height="478"> <img src="images/Picture2.jpg" alt="Picture2.jpg" width="360" height="478">
 
