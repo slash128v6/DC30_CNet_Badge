@@ -5,11 +5,12 @@ The Flux Capacitor LED badge features three microcontrollers, nine LEDs and a [S
 Looking at the back of the board (battery side) the Pro Micro on the left side will be programmed to control the LED lights. The Pro Micro on the right and the D1 Mini are used as a functioning [Wifi Duck](https://wifiduck.com/).
 
 ###Front of Badge:
+
 ![badge_front.png](images/badge_front.png)
 
 ###Back of Badge:
-![badge_back.png](images/badge_back.png)
 
+![badge_back.png](images/badge_back.png)
 
 
 ## GitHub: [https://github.com/slash128v6/DC30\_CNet\_Badge](https://github.com/slash128v6/DC30_CNet_Badge)
