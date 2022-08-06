@@ -1,6 +1,20 @@
 # Flux Capacitor LED Badge
 
+The Flux Capacitor LED badge features three microcontrollers, nine LEDs and a [SAO port](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/) that can be used for daughter boards (add-ons). The top two microcontrollers are Arduino Pro Micros, the bottom controller is an ESP8266 D1 Mini with Wifi capabilites. See the appendix for pinouts of each board. 
+
+Looking at the back of the board (battery side) the Pro Micro on the left side will be programmed to control the LED lights. The Pro Micro on the right and the D1 Mini are used as a functioning [Wifi Duck](https://wifiduck.com/).
+
+###Front of Badge:
+![badge_front.png](images/badge_front.png)
+
+###Back of Badge:
+![badge_back.png](images/badge_back.png)
+
+
+
 ## GitHub: [https://github.com/slash128v6/DC30\_CNet\_Badge](https://github.com/slash128v6/DC30_CNet_Badge)
+
+
 
 ### Parts List
 
@@ -163,3 +177,10 @@ Paste the contents of rickroll.script file into the Editor, click Save and Enabl
 With the USB cable connected to your PC and the WiFi Duck AVR Micro click the Run button and the script should run. With Autorun enabled the script should autorun when the USB connection is made.
 
 ![Picture35.jpg](images/Picture35.jpg)
+
+#Appendix
+##Pro Micro
+![pro_micro_pinout.jpg](images/pro_micro_pinout.jpg)
+
+##ESP8266 D1 Mini
+![d1_pinout.png](images/d1_pinout.png)
