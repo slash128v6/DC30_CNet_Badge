@@ -67,7 +67,7 @@ Flip the PCB over to the front and solder the SAO 4 pin female header on the fro
 
 <img src="images/Picture8.jpg" alt="Picture8.jpg" width="358" height="473"> <img src="images/Picture9.jpg" alt="Picture9.jpg" width="358" height="473">
 
-### Step 3: Install front RGD Leds
+### Step 3: Install front RGB Leds
 
 Install front RGB LEDs with long leads and flat on the left, matching the symbol on the board. Do not push all the way in, stop at the marks on the leads. Make sure there are no solder bridges. Trim the leads so there is clearance for the micro controllers to install on the other side.
 
@@ -77,7 +77,7 @@ Install front RGB LEDs with long leads and flat on the left, matching the symbol
 
 ### Step 4: Install the Pro Micros
 
-Rear View – WiFi Duck Pro Micro is on the left, LED Pro Micro is on the right. Install with USB connector at the top and facing up away from the board. Install headers with long side facing away from the badge, black insulator between the micro and badge board. Make sure to solder all the pins on both the badge board and micro board.
+Rear View – The Pro Micro boards are identical until they are programmed. Functionally, the WiFi Duck Pro Micro is on the left, LED Pro Micro is on the right. Install with USB connector at the top and facing up away from the board. Install headers with long side facing away from the badge, black insulator between the micro and badge board. Make sure to solder all the pins on both the badge board and micro board.
 
 <img src="images/Picture15.jpg" alt="Picture15.jpg" width="640" height="481"> <img src="images/Picture16.jpg" alt="Picture16.jpg" width="363" height="485">
 
